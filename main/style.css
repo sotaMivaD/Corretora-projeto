@@ -1,0 +1,159 @@
+* {
+    margin: 0
+}
+a{
+    color: inherit;
+
+/* Secao de inicio */
+}
+nav{
+    background-color: #acd7f2;
+    position: sticky;
+    top: 0;
+}
+#lista1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+      margin-top: -10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.lista1Itens{
+    margin-top: -10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#Logo{
+   width: 150px;
+   height:auto ;
+   display: block;
+   margin: 0 auto;  
+}
+#ImovelBanner{
+    width: 500px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size:20px;
+    color: #2084c1;
+    text-align: center;
+}
+
+#imovelSonhos{
+    width: 250px;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+#paragrafoSonhos{
+    text-align: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.Palavras{
+    color:blue;
+}
+/* Seção de serviços */
+#Servicos{
+    background-color: #2084c1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#ParagrafoServicos{
+    font-size: small;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#TituloServicos{
+    font-size: medium;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#Lista2{
+    margin-top: 20px;
+    font-size: small;
+    padding: 1px;
+}
+.lista2Itens{
+    text-align: center;
+    list-style: inside;
+}
+.Palavras2{
+    color: yellow;
+}
+
+/* Seção de Corretores */
+#h1Corretores{
+    color: #2084c1;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#imgCorretores{
+    width: 300px ;
+    display: flex;
+    margin: auto;
+}
+#LinkCorretores{
+    color: blue;
+}
+#ParagrafoCorretores{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+}
+#Contato{
+    background-color: #2084c1;
+}
+#TituloContato{
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+#Maps{
+    margin: 0 auto;
+    display: flex;
+}
+#ParagrafoContato{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: block;
+    justify-content: center;
+}
+.PalavraColorida3{
+    color: yellow;
+}
+#ListaContato{
+    list-style: none;
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
+.itemListaContato{
+    background-color: white;
+    display: inline;
+    margin: 5px;
+    border-radius: 5px;
+}
